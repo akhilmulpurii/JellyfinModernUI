@@ -10,18 +10,6 @@ h4 {
   font-family: "Quicksand", sans-serif;
 }
 
-/* Admind Logo */
-
-.adminDrawerLogo img {
-  content: url("https://cdn.jsdelivr.net/gh/akhilmulpurii/JellyfinModernUI@latest/images/logo.png") !important;
-}
-.imgLogoIcon {
-  content: url("https://cdn.jsdelivr.net/gh/akhilmulpurii/JellyfinModernUI@latest/images/logo.png") !important;
-}
-.pageTitleWithLogo {
-  content: url("https://cdn.jsdelivr.net/gh/akhilmulpurii/JellyfinModernUI@latest/images/logo.png") !important;
-}
-
 /* Custom Icon Pack */
 
 .material-icons {
