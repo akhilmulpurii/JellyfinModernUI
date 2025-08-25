@@ -1,5 +1,6 @@
 @import url("https://cdn.jsdelivr.net/gh/akhilmulpurii/JellyfinModernUI@latest/colorschemes/coral.css");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css");
 
 body,
 h1,
@@ -14,7 +15,7 @@ h4 {
 .adminDrawerLogo img {
   content: url("https://cdn.jsdelivr.net/gh/akhilmulpurii/JellyfinModernUI@latest/images/logo.png") !important;
 }
-imgLogoIcon {
+.imgLogoIcon {
   content: url("https://cdn.jsdelivr.net/gh/akhilmulpurii/JellyfinModernUI@latest/images/logo.png") !important;
 }
 .pageTitleWithLogo {
@@ -23,7 +24,6 @@ imgLogoIcon {
 
 /* Custom Icon Pack */
 
-@import url("https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css");
 .material-icons {
   font-family: "Font Awesome 6 Pro";
   font-weight: 300;
