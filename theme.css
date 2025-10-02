@@ -592,7 +592,7 @@ h4 {
 }
 
 .backdropImage {
-  filter: blur(0px) saturate(120%) contrast(120%) brightness(80%);
+  filter: blur(0px) saturate(120%) contrast(120%) brightness(65%);
   transition: all 0.3s ease-in-out;
 }
 
@@ -4811,4 +4811,8 @@ imgLogoIcon {
 .layout-tv .verticalSection h2 {
   font-size: 1.75em;
   font-weight: 600;
+}
+
+.noBackdropTransparency .detailPageSecondaryContainer {
+  background-color: transparent !important;
 }
