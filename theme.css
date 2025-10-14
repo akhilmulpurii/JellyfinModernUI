@@ -1,0 +1,103 @@
+:root {
+  /* Base theme colors */
+  color-scheme: dark;
+  --darkerGradientPoint: #050505;
+  --darkerGradientPointAlpha: rgba(5, 5, 5, 0.9);
+  --lighterGradientPoint: #1a1c1f;
+  --lighterGradientPointAlpha: rgba(26, 28, 31, 0.85);
+  --headerColor: rgba(28, 31, 36, 0.88);
+  --drawerColor: rgba(28, 31, 36, 0.94);
+
+  --borderColor: hsl(210, 10%, 24%);
+  --darkerBorderColor: hsl(210, 10%, 18%);
+  --lighterBorderColor: hsla(210, 12%, 80%, 0.24);
+
+  --selectorBackgroundColor: rgb(46, 49, 56);
+  --selectorBackgroundColorAlpha: rgba(46, 49, 56, 0.5);
+
+  --activeColorAlpha: rgba(180, 188, 198, 0.88);
+  --activeColor: rgb(180, 188, 198);
+  --osdSeekBarPlayedColor: var(--textColor);
+  --osdSeekBarBufferedColorAlpha: rgba(120, 126, 136, 0.45);
+  --osdSeekBarThumbColor: rgb(236, 240, 244);
+  --tableBodyColor: rgb(20 22 25 / 1);
+  --uiAccentColor: rgb(190 198 208);
+  --btnMiniPlayColor: rgb(152, 160, 170);
+  --btnMiniPlayBorderColor: rgb(190, 198, 208);
+
+  /* Base component colors */
+  --btnDeleteColor: rgb(108, 112, 118);
+  --btnDeleteBorderColor: rgb(142, 146, 152);
+  --btnSubmitColor: rgb(132, 140, 148);
+  --btnSubmitBorderColor: rgb(190 198 208);
+  --checkboxCheckedBgColor: rgb(206, 151, 0);
+  --highlightOutlineColor: rgb(190, 198, 208);
+
+  /* dark theme based text colors */
+  --textColor: rgb(228, 232, 238);
+  --dimTextColor: rgb(170, 176, 184);
+
+  /* textures */
+  --backgroundGradient: linear-gradient(
+    0deg,
+    var(--darkerGradientPoint) 35%,
+    var(--lighterGradientPoint)
+  );
+  --cardBackgroundGradient: linear-gradient(
+    0deg,
+    var(--darkerGradientPoint) 25%,
+    var(--lighterGradientPoint)
+  );
+  --headerColorGradient: linear-gradient(
+    180deg,
+    rgba(28, 31, 36, 0.96) 30%,
+    rgba(28, 31, 36, 0.42) 55%,
+    transparent 90%
+  );
+  --headerColorGradientAlt: linear-gradient(
+    180deg,
+    rgba(28, 31, 36, 0.96),
+    rgba(28, 31, 36, 0.38) 70%,
+    transparent
+  );
+  --headerBlurMask: linear-gradient(180deg, white 50%, 85%, transparent);
+
+  --cardFooterGradient: linear-gradient(
+    0deg,
+    rgb(10 11 12 / 92%) 40%,
+    transparent
+  );
+  --topOSDGradient: linear-gradient(
+    180deg,
+    rgba(34, 37, 42, 0.78) 45%,
+    hsla(0, 0%, 0%, 0)
+  );
+  --bottomOSDGradient: linear-gradient(
+    0deg,
+    rgba(34, 37, 42, 0.78) 45%,
+    hsla(0, 0%, 0%, 0)
+  );
+
+  --hoverGradientV: linear-gradient(
+    0deg,
+    transparent,
+    rgb(255 255 255 / 100%) 45%,
+    rgb(255 255 255 / 100%) 55%,
+    transparent
+  );
+  --hoverGradientH: linear-gradient(
+    90deg,
+    transparent,
+    rgb(255 255 255 / 100%) 45%,
+    rgb(255 255 255 / 100%) 55%,
+    transparent
+  );
+
+  --itemBackdropMask: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.8),
+    75%,
+    transparent
+  );
+  /* --themeVideoPlayerMask: linear-gradient(180deg, rgba(0, 0, 0, 1), 85%, transparent); */
+}
